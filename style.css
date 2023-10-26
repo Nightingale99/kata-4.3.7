@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #C4C4C4;
+}
+
+
+
+#page-main__git-search{
+width: 500px;
+height: 61px;
+font-size: 48px;
+}
+
+.search-result{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 503px;
+    height: 101px;
+    background-color: #E27BEB;
+    border: 1px solid black;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+button.delete-button{
+    width: 42px;
+    height: 41px;
+    transform: translate(400px, -50px);
+    background-color: transparent;
+    background-image: url('1200px-Crystal_button_cancel.svg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.page-main__autocomplit li{
+    width: 500px;
+    height: 44px;
+    background-color: #E3E3E3;
+    border: 2px solid black;
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.page-main__autocomplit li:hover{
+    background-color: #65CDF9
+}
+
+ul{
+    padding: 0px;
+    margin-top: 5px
+}
